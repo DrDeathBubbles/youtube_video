@@ -1,0 +1,1 @@
+The github for youtube samples is located at https://github.com/youtube/api-samples/tree/master/python
