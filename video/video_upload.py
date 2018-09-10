@@ -157,7 +157,7 @@ def resumable_upload(insert_request):
 
 def youtube_video_upload(file, title, description, category, keywords, privacyStatus):
 
-  if not os.path.exists(args.file):
+  if not os.path.exists(file):
     exit("Please specify a valid file using the --file= parameter.")
 
   youtube = get_authenticated_service(args)
