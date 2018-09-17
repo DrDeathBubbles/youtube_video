@@ -1,3 +1,5 @@
 *.json
+*.pyc
 credentials/
 venv/
+scratch_space/
